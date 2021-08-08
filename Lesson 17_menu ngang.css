@@ -1,0 +1,35 @@
+*{margin: 0px; padding: 0px;}
+#menu{
+	width: 200px;
+	height: 500px;
+	background-color: #0550AD;
+}
+#menu a{
+	color: white;
+	text-decoration: none;
+}
+#menu ul li{
+	position: relative;
+	width: 195px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 5px;
+	list-style: none;
+}
+#menu ul li:hover{
+	background: #B4b4b4;
+}
+#menu ul li:hover ul{
+	display: block;
+	
+}
+#menu ul li ul{
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	display: none;
+}
+#menu ul li ul li{
+	background: #126F16;
+	
+}
